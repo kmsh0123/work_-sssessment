@@ -136,7 +136,6 @@ export const deleteItem = async (req, res) => {
       res.status(200).json({
         success: true,
         message: `Item delete successfully`,
-        data,
       });
     } catch (error) {
       res.status(500).json({
